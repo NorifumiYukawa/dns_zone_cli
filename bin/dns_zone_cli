@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require "dns_zone_cli"
+
+DnsZoneCli::CLI.start
