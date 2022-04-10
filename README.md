@@ -1,8 +1,20 @@
 # DnsZoneCli
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/dns_zone_cli`. To experiment with that code, run `bin/console` for an interactive prompt.
+What would you do if you wanted to check for a domain?
 
-TODO: Delete this and the text above, and describe your gem
+For example, hosting DNS servers, web servers, and mail servers.
+
+You can predict each host name to some extent, right?
+For example, the host name of the mail server may be the domain name itself, or mail.domain name.
+
+It is very troublesome to execute the dig command each time.
+
+If possible, I would like to investigate all at once.
+It would be better if you could specify a DNS server and execute the dig command.
+
+I wanted to have a CLI tool that meets such demands.
+
+---
 
 ## Installation
 
@@ -23,20 +35,6 @@ Or install it yourself as:
 ---
 
 ## Usage
-
-What would you do if you wanted to check for a domain?
-
-For example, hosting DNS servers, web servers, and mail servers.
-
-You can predict each host name to some extent, right?
-For example, the host name of the mail server may be the domain name itself, or mail.domain name.
-
-It is very troublesome to execute the dig command each time.
-
-If possible, I would like to investigate all at once.
-It would be better if you could specify a DNS server and execute the dig command.
-
-I wanted to have a CLI tool that meets such demands.
 
 It's very easy to use.
 After installing this gem, the following command will launch the CLI.
@@ -143,9 +141,14 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/dns_zone_cli.
+Bug reports and pull requests are welcome on GitHub at https://github.com/NorifumiYukawa/dns_zone_cli.
+
+I don't know how to write a spec for thor, so 
+I haven't written test code.
+
+I would appreciate it if anyone could cooperate.
 
 ## License
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-# dns_zone_cli
+
