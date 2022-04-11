@@ -32,6 +32,19 @@ Or install it yourself as:
 
     $ gem install dns_zone_cli
 
+This gem uses `thor` to run the CLI.
+If you don't have `thor` in your environment, please install thor as well.
+```ruby
+gem 'thor'
+```
+And then execute:
+```
+$ bundle install
+```
+Or install it yourself as:
+```
+$ gem install dns_zone_cli
+```
 ---
 
 ## Usage
